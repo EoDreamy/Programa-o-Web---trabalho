@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Lista de Livros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lista de Livros</h1>
+
+    <!-- Filtro -->
+    <input type="text" id="filtro" placeholder="Buscar por título">
+    <button onclick="filtrarLivros()">Buscar</button>
+
+    <!-- Adicionar novo -->
+    <h3>Adicionar Livro</h3>
+    <input type="text" id="novoTitulo" placeholder="Título do livro">
+    <button onclick="adicionarLivro()">Adicionar</button>
+
+    <hr>
+
+    <!-- Lista -->
+    <div id="listaLivros"></div>
+
+    <script src="script-home.js"> </script>
+</body>
+</html>
