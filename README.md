@@ -13,7 +13,7 @@ Para executar o projeto basta seguir o passo a passo:
 
 3° Abrir a pasta extraida.
 
-4° clicar no arquivo 'login.html'.
+4° clicar no arquivo 'login.html' dentro da pasta login.
 
 Executando esses 4 passos, você já terá acesso ao site.
 
